@@ -1,0 +1,166 @@
+body{
+    background-color: black;
+}
+
+.tudo{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+
+    margin-top: 20px;
+
+    font-family: sans-serif;
+
+    width: 650px;
+    border: solid 5px;
+    border-color: #1ED760;
+    border-radius: 15px;
+
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    width: 250px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+
+h1{
+    width: 350px;
+    text-align: center;
+    text-justify: center;
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+
+::placeholder{
+    color: #B9B9B9;
+}
+
+
+
+.email{
+    width: 290px;
+    height: 25px;
+    border: solid 2px;
+    border-color: #1ED760;
+    
+
+    font-size: 100%;
+
+    background-color: #404040;
+    color: #B9B9B9;
+}
+
+.senha{
+    width: 290px;
+    height: 25px;
+    border: solid 2px;
+    border-color: #1ED760;
+
+    font-size: 100%;
+
+    background-color: #404040;
+    color: #B9B9B9;
+}
+
+.nome{
+    width: 290px;
+    height: 25px;
+    border: solid 2px;
+    border-color: #1ED760;
+
+    font-size: 100%;
+
+    background-color: #404040;
+    color: #B9B9B9;
+
+    margin-bottom: 10px;
+}
+
+h2{
+    width: 350px;
+
+    text-align: center;
+    text-justify: center;
+    margin: auto;
+}
+
+.QualGenero{
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+
+.ponto{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+    height: 15px;
+    width: 15px;
+
+    vertical-align: -1.5px;
+}
+
+input[type="radio"]:checked{
+    accent-color: #1ED760;
+}
+
+
+.genero{
+    margin-left: -4px;
+}
+
+
+.DataNascimento{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.nascimento{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 290px;
+    height: 25px;
+    border: solid 2px;
+    border-color: #1ED760;
+
+    font-size: 100%;
+
+    background-color: #404040;
+    color: #B9B9B9;
+}
+
+.Termos{
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"]:checked{
+    accent-color: #1ED760;
+}
+
+.termos{
+    border: solid 0px;
+    text-justify: left;
+}
+
+button{
+    margin-bottom: 30px;
+    
+    width: 190px;
+    height: 40px;
+
+    font-size: 150%;
+    border-radius: 10px;
+    background-color: #19b650;
+    color: white;
+}
+
+button:active{
+    background-color: #12883b;
+}

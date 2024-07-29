@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <script src="formulario.js"></script>
+    <title>Spotify: Criar Conta</title>
+</head>
+
+<body>
+    <div class="tudo">
+
+        <img src="/Imagens/Spotify_logo.png" class="logo">
+
+        <h1>Crie uma conta grátis no Spotify!</h1>
+
+        <input type="text" class="email" id="email" placeholder="E-mail"> <br> <br>
+        
+        <input type="password" class="senha" id="senha" placeholder="Crie uma senha!"> <br> <br>
+        
+        <input type="text" class="nome" id="nome" placeholder="Como devemos te chamar?"> <br> <br>
+
+        <div class="QualGenero">
+            <h2 class="Hgenero">Com qual gênero você se identifica?</h2>
+            <input type="radio" name="genero" value="Feminino" class="ponto"> <label class="genero">Feminino</label>
+            <input type="radio" name="genero" value="Masculino" class="ponto"> <label class="genero">Masculino</label>
+            <input type="radio" name="genero" value="Não binário" class="ponto"> <label class="genero">Não binário</label>
+        </div>
+
+        <div class="DataNascimento">
+            <h2 class="Hdata">Qual sua data de nascimento?</h2>
+            <input type="date" class="nascimento" id="nascimento">
+        </div>
+
+        <div class="Termos">
+            <input type="checkbox" class="VcAceita" id="VcAceita"> <label class="termos">Aceito os <a>Termos e Condições de Uso do Spotify</a> <br>e a <a>Política de Privacidade</a>.</label>
+        </div>
+
+        <button onclick="CriarConta()">Criar conta!</button>
+
+</div>
+    
+</body>
+</html>

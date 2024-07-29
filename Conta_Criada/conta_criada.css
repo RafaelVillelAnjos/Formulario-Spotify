@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+
+.tudo{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+
+    margin-top: 20px;
+
+    font-family: sans-serif;
+
+    width: 650px;
+    border: solid 5px;
+    border-color: #1ED760;
+    border-radius: 15px;
+
+    background-color: black;
+    color: white;
+}
+
+h1{
+    margin-top: -15px;
+    font-size: 280%;
+    margin-bottom: -5px;
+}
+
+h2{ 
+    font-size: 150%;
+    width: 498px;
+    text-align: center;
+    margin: auto;
+}
+
+.logo{
+    width: 250px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.musga{
+    width: 350px;
+    height: 380px;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-bottom: 30px;
+    
+    width: 190px;
+    height: 40px;
+
+    font-size: 150%;
+    border-radius: 10px;
+    background-color: #19b650;
+    color: white;
+}
+
+button:active{
+    background-color: #12883b;
+}
